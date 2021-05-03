@@ -4,4 +4,4 @@
 ## Planering
 * [Wiki](https://github.com/TheDeniableToast/Chattprogram2.0/wiki/Planering)
 * [Bräde](https://github.com/TheDeniableToast/Chattprogram2.0/projects/1)
-* KlassDiagram finns i asset-mappen
+* KlassDiagram och GUI-skiss finns i asset-mappen
