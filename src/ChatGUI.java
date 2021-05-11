@@ -1,14 +1,26 @@
 import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class ChatGUI {
-    private JButton host;
-    private JButton connect;
-    private JButton send;
-    private JTextArea console;
-    private JTextArea message;
-    private JTextArea ip;
-    private JTextArea port;
+    public JButton host;
+    public JButton connect;
+    public JButton send;
+    public JTextArea console;
+    public JTextArea message;
     public JPanel panel1;
+    public JTextField ipfield;
+    public JTextField portfield;
+    public JTextField namefield;
+
+    public ChatGUI() {
+        host.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+            }
+        });
+    }
 
 
     private void createUIComponents() {
