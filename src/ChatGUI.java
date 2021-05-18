@@ -12,16 +12,26 @@ public class ChatGUI {
     public JTextField ipfield;
     public JTextField portfield;
     public JTextField namefield;
+    public JLabel portlabel;
+    public JLabel iplabel;
 
     public ChatGUI() {
         host.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                console.setText("Server started");
 
             }
         });
-    }
 
+        send.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                String msg = message.getText();
+                console.append("\n" + msg);
+            }
+        });
+    }
 
     private void createUIComponents() {
         // TODO: place custom component creation code here
