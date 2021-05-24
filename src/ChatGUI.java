@@ -16,6 +16,9 @@ public class ChatGUI {
     public JLabel iplabel;
 
     public ChatGUI() {
+
+        namefield.setText("filpip");
+
         host.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -27,7 +30,7 @@ public class ChatGUI {
         send.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                String msg = message.getText();
+                String msg = namefield.getText() + ": " + message.getText();
                 console.append("\n" + msg);
             }
         });

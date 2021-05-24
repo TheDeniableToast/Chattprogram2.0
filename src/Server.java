@@ -1,3 +1,4 @@
+import javax.swing.*;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
@@ -8,6 +9,7 @@ public class Server {
 
     public Server() {
         int port = 1234;
+        String user;
         boolean run = true;
         ServerSocket serverSocket;
         Socket socket;
