@@ -17,7 +17,7 @@ public class ChatGUI {
 
     public ChatGUI() {
 
-        namefield.setText("filpip");
+        namefield.setText(Controller.bonk);
 
         host.addActionListener(new ActionListener() {
             @Override
