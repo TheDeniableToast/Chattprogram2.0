@@ -1,5 +1,9 @@
 import javax.swing.*;
 
+
+//This is the controller class that runs the program
+
+
 public class Controller extends ChatGUI {
 
     public static String bonk;
